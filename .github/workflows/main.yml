@@ -1,6 +1,7 @@
 name: Run Python Script and Commit CSV
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main # 触发动作的分支
